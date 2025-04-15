@@ -3,14 +3,14 @@ body{
 }
 
 .testimonial {
-    position:relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
     align-items: center;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .testimonial {
       flex-direction: column; /* Stack content vertically on mobile */
       align-items: center;
@@ -18,7 +18,7 @@ body{
     }
   
     .text {
-      font-size: 24px; /* Adjust font size for smaller screens */
+      font-size: 20px; /* Adjust font size for smaller screens */
       max-width: 90%;   /* Increase max-width of text */
       padding-top: 20px;
       margin-bottom: 10px;
@@ -45,7 +45,7 @@ body{
     .right1 {
       margin-left: 5%;
     }
-  }
+}
 .background4{
     position: absolute;
     height: 135%;
